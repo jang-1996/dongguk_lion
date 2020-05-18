@@ -1,4 +1,113 @@
-.title {
-	font-weight: bold;
-	font-size: 30px;
+.mytitle {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQqaSZp6XsqGyJ9bpFv-etbiCTOd93xRA9Cv5l0al3ckpWw_rp6');
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  
+}
+.bg-custom{
+  background-color: wheat !important;
+}
+
+.navbar-brand{
+  font-weight: bold;
+}
+.margin{
+  margin-left: 80px;
+  float: left;
+  margin-right: 80px;
+}
+
+
+* {
+  font-family: 'Sunflower', sans-serif;
+  font-size: 17px;
+}
+
+.middle {
+  text-align: center;
+}
+.middle>h1{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.exlpan{
+  float: right;
+}
+
+.wrap {
+  width: 1400px;
+  margin: auto;
+  margin-top: 2%;
+  height: 40%;
+}
+
+.box {
+ float: right;
+}
+
+.card-header{
+  background-color: wheat !important;
+}
+.list-group-item{
+  background-color: wheat !important;
+}
+
+.bottom{
+height: 450px;
+}
+.bottom1{
+  height: 500px;
+  }
+
+.word{
+  float: left;
+  margin-right: 2%;
+}
+
+.location{
+  position: relative;
+  top:25%;
+}
+
+.size {
+
+	width: 50%;
+
+	height: 70%;
+
+	background-position: center;
+
+	background-size: auto 100%;
+
+}
+
+.size1 {
+
+	width: 25%;
+
+	background-position: center;
+
+	background-size: auto 100%;
+float: left;
+}
+
+.size2{
+  width: 30%;
+
+	background-position: center;
+
+	background-size: auto 100%;
+  float: left;
+
+}
+
+#post-box {
+	display: none;
 }

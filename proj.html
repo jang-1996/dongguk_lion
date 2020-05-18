@@ -1,0 +1,85 @@
+<head>
+    <title>장영동</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Sunflower:300&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script>
+        function openclose() {
+
+            if ($('#post-box').css('display') == 'block') {
+
+                $('#post-box').hide();
+                $('#btn-posting-box').text('박스 열기');
+            } else {
+
+                $('#post-box').show();
+                $('#btn-posting-box').text('박스 닫기');
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-custom">
+        <a class="navbar-brand" href="index.html">
+            <h3>자기소개</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hab.html">취미</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="proj.html">개발공부</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <h3 class="display-4">홀로 홈페이지 만들어보기</h3>
+        <p class="lead"> 혼자서 만들어 보고 있는 수학 사이트에요. 중간도 못간 프로젝트이지만 이번 학기안으로 끝내볼게요.
+        </p>
+        <hr class="my-4">
+        <p class="lead">
+            <button id="btn-posting-box" onclick="openclose()" type="button" class="btn btn-primary">궁금해요?
+                눌러봐요!</button>
+        </p>
+    </div>
+    <div class="form-post" id="post-box">
+        <div>
+            <div class="form-group">
+                <img src="https://dgulion.s3.ap-northeast-2.amazonaws.com/math_jang.png" width="600px">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">
+                    <p>사이트 주소: <a href="http://mathelephant.shop" target="_blank">http://mathelephant.shop/</a></p>
+                    <p>
+                        코드 참고 github 주소: <a href="https://github.com/jang-1996/math-project"
+                            target="_blank">https://github.com/jang-1996/math-project</a>
+                    </p>
+                </label>
+            </div>
+        </div>
+    </div>
+
+</body>
