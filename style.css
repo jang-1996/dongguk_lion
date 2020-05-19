@@ -73,9 +73,12 @@ height: 450px;
 
 .location{
   position: relative;
+  top:15%;
+}
+.location1{
+  position: relative;
   top:25%;
 }
-
 .size {
 
 	width: 50%;
